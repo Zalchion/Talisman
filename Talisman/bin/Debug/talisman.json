@@ -1,0 +1,1588 @@
+{
+	"Monsters": {
+		"Vanilla": [
+			{
+				"Name": "Wild Boar",
+				"EnemyType": "Animal",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Wolf",
+				"EnemyType": "Animal",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Ape",
+				"EnemyType": "Animal",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Bear",
+				"EnemyType": "Animal",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Lion",
+				"EnemyType": "Animal",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Serpent",
+				"EnemyType": "Animal",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Dragon",
+				"EnemyType": "Dragon",
+				"strength": "7",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Goblin",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Hobgoblin",
+				"EnemyType": "Monster",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Bandit",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "He will not attack if you pay 1 gold."
+			},
+			{
+				"Name": "Ogre",
+				"EnemyType": "Monster",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Giant",
+				"EnemyType": "Monster",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Doppelganger",
+				"EnemyType": "Monster",
+				"strength": "?",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "The Doppelganger always has the same total strength as its opponent including any bonuses. If you kill it you gain 1 strength"
+			},
+			{
+				"Name": "Lemure",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Shadow",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Spectre",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Ghost",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": "Ghost materialises in (roll 1 die): 1) City 2) Village 3) Graveyard 4) Chapel 5) Castle 6) Temple"
+			},
+			{
+				"Name": "Wraith",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Demon",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "10",
+				"initiative": "3",
+				"Description": ""
+			}
+		],
+		"TheReaper": [
+			{
+				"Name": "Pack of Wolves",
+				"EnemyType": "Animal",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Roll 1 extra die for the Wolves' attack roll and use the highest result"
+			},
+			{
+				"Name": "Raging Bull",
+				"EnemyType": "Animal",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Sabretooth Tiger",
+				"EnemyType": "Animal",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Giant Spider",
+				"EnemyType": "Animal",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Mammoth",
+				"EnemyType": "Animal",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Storm Caller",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "If you have any Armor you lose 1 life before fighting the Storm Caller"
+			},
+			{
+				"Name": "Miser Dragon",
+				"EnemyType": "Dragon",
+				"strength": "8",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you kill the dragon roll 1 die and gain that much gold"
+			},
+			{
+				"Name": "Goblin Trapsmith",
+				"EnemyType": "Monster",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Roll 1 extra die for your attack roll and use the lowest result"
+			},
+			{
+				"Name": "Ekor",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Ekor will flee if your strength is higher than 2"
+			},
+			{
+				"Name": "Hippogriff",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Trapper",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Roll 2 dice. If the result is equal or less than your craft you may evade the Trapper. If it is higher you must fight him and you cant roll a die for your attack roll"
+			},
+			{
+				"Name": "Chimera",
+				"EnemyType": "Monster",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Hydra",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you defeat the Hydra roll 1 die. If you roll a 1 or 2, it regenerates and the attack counts as a stand-off"
+			},
+			{
+				"Name": "Gargoyle",
+				"EnemyType": "Monster",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Cave Troll",
+				"EnemyType": "Monster",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you defeat the Cave Troll, roll 1 die. If your roll 1 or 2, it regenerate"
+			},
+			{
+				"Name": "Stone Golem",
+				"EnemyType": "Construct",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You can only use magical weapons during battle"
+			},
+			{
+				"Name": "Cerberus",
+				"EnemyType": "Monster",
+				"strength": "7",
+				"craft": "7",
+				"initiative": "1",
+				"Description": "Place Cerberus on the Portal of Power. Players may not cross Plains of Peril until Cerberus is dead. Cerberus cannot be evaded. You choose to attack with strength or craft"
+			},
+			{
+				"Name": "Lord of the Pit",
+				"EnemyType": "Monster",
+				"strength": "8",
+				"craft": "8",
+				"initiative": "1",
+				"Description": "If you kill Lord of the Pit you may teleport to Plain of Peril. You choose to attack with strength or craft"
+			},
+			{
+				"Name": "Crone",
+				"EnemyType": "Spirit",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "3",
+				"Description": "If you are defeted you do not lose 1 life. Instead you are turned into a Toad for 3 turns"
+			},
+			{
+				"Name": "Haunt",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "3",
+				"Description": "If you do not defeat the Haunt, you must take it as a Follower. While the Haunt is a Follower your attack rolls are reduced by 1."
+			},
+			{
+				"Name": "Mummy",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "If you are defeated you lose 2 life instead of 1"
+			},
+			{
+				"Name": "Banshee",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Succubus",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": "If you are defeated you lose 1 craft if able. Then place 1 craft counter on this card and add it to the Succubus craft"
+			},
+			{
+				"Name": "Wight",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Crypt Keeper",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": "If you defeat the Crypt Keeper, draw 5 adventure cards and take 1 object of your choise"
+			},
+			{
+				"Name": "Black Unicorn",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "7",
+				"initiative": "3",
+				"Description": "If you defeat the Black Unicorn you may keep it as a Follower. It will add 1 strength and 1 craft as a Follower"
+			},
+			{
+				"Name": "Lesser Demon",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "7",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Nightmare",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "?",
+				"initiative": "3",
+				"Description": "The Nightmare always has the same total craft as its opponent including any bonuses.If you kill it you gain 1 craft"
+			}
+		],
+		"TheFrostmarch": [
+			{
+				"Name": "Icecap Elk",
+				"EnemyType": "Animal",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Winter Wolf",
+				"EnemyType": "Animal",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Ice Bear",
+				"EnemyType": "Animal",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Cryomancer",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": "If you are defeated you lose 2 life instead of 1 and you must miss your next turn"
+			},
+			{
+				"Name": "Eastern Dragon",
+				"EnemyType": "Dragon",
+				"strength": "6",
+				"craft": "6",
+				"initiative": "1",
+				"Description": "You must use your lowest stat. If you are defetead you lose 1 magic object at random "
+			},
+			{
+				"Name": "Frost Drake",
+				"EnemyType": "Dragon",
+				"strength": "7",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Ice Elemental",
+				"EnemyType": "Elemental",
+				"strength": "0",
+				"craft": "7",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Snow Goblin",
+				"EnemyType": "Monster",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Basilisk",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "The Basilisk rolls 2 dice for its attack and uses the highest result. If it rolls doubles, you are killed"
+			},
+			{
+				"Name": "Sky Screecher",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If your attack roll is lower than your craft, you are automatically defeated"
+			},
+			{
+				"Name": "Glory Seeker",
+				"EnemyType": "Monster",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated you discard all of your quests . If you win you may accept 1 Warlock Quest"
+			},
+			{
+				"Name": "Yeti",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Before you engage you roll 1 die. If the result is equal or higher than your craft, lose 1 life"
+			},
+			{
+				"Name": "Griffon",
+				"EnemyType": "Monster",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Frost Giant",
+				"EnemyType": "Monster",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Apparition",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Barrow Wight",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Rimespawn",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Chill Wraith",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "If you are defeated you must miss your next turn "
+			},
+			{
+				"Name": "Shiver Nymph",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "If your craft is higher than 2, the Shiver Nymph will flee"
+			},
+			{
+				"Name": "Trickster",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "If you are defeated you must ditch 1 object at random in addition to lose 1 life. If you win you may steal 1 object from any character in the same Region"
+			},
+			{
+				"Name": "Lich",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": "If you are defeated place 1 life counter on this card . Instead of killing the Lich remove 1 life counter if it has one"
+			},
+			{
+				"Name": "Medusa",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": "If you are defeated you do not lose a life. Instead you must miss 2 turns"
+			},
+			{
+				"Name": "Chillbane",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "3",
+				"Description": ""
+			}
+		],
+		"TheDungeon": [
+			{
+				"Name": "Burrow Worm",
+				"EnemyType": "Animal",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated you get teleported to the Dungeon Entrance"
+			},
+			{
+				"Name": "Giant Rat",
+				"EnemyType": "Animal",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Umbra Spider",
+				"EnemyType": "Animal",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Giant Worm",
+				"EnemyType": "Animal",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Giant Beetle",
+				"EnemyType": "Animal",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated you lose one of your followers at random . If you have no followers you lose 1 additional life"
+			},
+			{
+				"Name": "Grinder",
+				"EnemyType": "Construct",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Living Statue",
+				"EnemyType": "Construct",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you defeat the Living Statue , the attack counts as stand-off unless you use a magic object"
+			},
+			{
+				"Name": "Gate Smasher",
+				"EnemyType": "Construct",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you do not kill the Gate Smasher roll 1 die for each faceup Adventure Card in this Region. If you roll 1 or 2 the Adventure Card is discarded"
+			},
+			{
+				"Name": "Battle Hulk",
+				"EnemyType": "Construct",
+				"strength": "10",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You may evade instead of attacking"
+			},
+			{
+				"Name": "Dark Acolyte",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Soulbinder",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": "You may not pay fate to reroll dice during combat"
+			},
+			{
+				"Name": "Servant of Darkness",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Vassal of Darkness",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "?",
+				"initiative": "3",
+				"Description": "The Vassal of Darkness has a craft of 3 if you are evil, 6 if you are neutral and 9 if you are good. If you kill it you gain 1 craft"
+			},
+			{
+				"Name": "Bronze Dragon",
+				"EnemyType": "Dragon",
+				"strength": "8",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Cave Goblin",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Goblin Ambusher",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated you will be teleported to the Dungeon Entrance in addition to losing 1 life"
+			},
+			{
+				"Name": "Goblin Sniper",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Roll 1 die. If the result is higher than your craft, you cannot roll a die for your attack roll"
+			},
+			{
+				"Name": "Gnoll",
+				"EnemyType": "Monster",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Bloodroot",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you kill Bloodroot you may heal up to 2 lives"
+			},
+			{
+				"Name": "Goblin Tunneler",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you kill the Goblin Tunneler, on your next move you may choose to move to any Tunnel space in the Dungeon instead of taking your normal move"
+			},
+			{
+				"Name": "Gnoll",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Goblin King",
+				"EnemyType": "Monster",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Goblin King gets +1 strength for each Goblin or Hobgoblin in all zones"
+			},
+			{
+				"Name": "Crawling Slime",
+				"EnemyType": "Monster",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Any weapons used to fight Crawling Slime is destroyed after the battle"
+			},
+			{
+				"Name": "Goblin Marauder",
+				"EnemyType": "Monster",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Goblins Marauder",
+				"EnemyType": "Monster",
+				"strength": "7",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Goblins Marauders",
+				"EnemyType": "Monster",
+				"strength": "9",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Colossal Ogre",
+				"EnemyType": "Monster",
+				"strength": "8",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Mimic",
+				"EnemyType": "Monster",
+				"strength": "?",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "The Mimic always has the same total strength as its opponent including any bonuses. If you kill it you gain 1 strength"
+			},
+			{
+				"Name": "Black Elf",
+				"EnemyType": "Monster",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Vampire Bats",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "If you defeat Vampire Bats, the attack counts as a stand-off unless your attack score wins by 2 or more points"
+			},
+			{
+				"Name": "Spirit of Vengeance",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": "If you are defeated you must take Spirit of Vengeance as a follower in addition to losing 1 life. While a follower you must attack players you land on. You can give Spirit of Vengeance to him if you win"
+			},
+			{
+				"Name": "Phantom Hound",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Tinker Imp",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": "Before you engage, one of your objects chosen at random will be teleported to a space 1 die roll clockwise"
+			},
+			{
+				"Name": "Blight Haunt",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": "A Blight Haunt appears at (roll 1 die): 1) This space 2) Ruins 3) Dungeon Entrance 4) Cell 5) Monster Pit 6) Cursed Glade"
+			},
+			{
+				"Name": "Shadow Stalker",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Night Mare",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Rune Dancer",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "3",
+				"Description": "If you kill Rune Dancer you may gain your full complement of spells"
+			},
+			{
+				"Name": "Tomb Warden",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "7",
+				"initiative": "3",
+				"Description": "If you kill it, gain a Talisman or 3 gold instead of taking it as a trophy"
+			},
+			{
+				"Name": "Death Knight",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "8",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Vampire Prince",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "9",
+				"initiative": "3",
+				"Description": "IF you are defeated he will kill a random Follower in addition to losing 1 life. If you have no Followers you lose 2 life instead"
+			},
+			{
+				"Name": "Gate Keeper",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "10",
+				"initiative": "3",
+				"Description": "If you kill the Gate Keeper you may teleport to Oasis, Village, City, Temple, Warlocks Cave, or Ruins"
+			}
+		],
+		"TheHighland": [
+			{
+				"Name": "Earth Elemental",
+				"EnemyType": "Elemental",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": "If you are defeated you will be dragged down to the Highland Entrance in addition to losing 1 life"
+			},
+			{
+				"Name": "Roc",
+				"EnemyType": "Animal",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated you will be dragged to the Mountain Pass in addition to losing 1 life"
+			},
+			{
+				"Name": "Felclaw",
+				"EnemyType": "Spirit",
+				"strength": "6",
+				"craft": "6",
+				"initiative": "1",
+				"Description": "You must use your lowest stat to fight Felclaw"
+			},
+			{
+				"Name": "Amphitere",
+				"EnemyType": "Dragon",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Before you engage, if you have 1 armor you lose 1 life."
+			},
+			{
+				"Name": "Carrion Crows",
+				"EnemyType": "Animal",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated you must discard all trophies"
+			},
+			{
+				"Name": "Cloud Dragon",
+				"EnemyType": "Dragon",
+				"strength": "8",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Crag Crawler",
+				"EnemyType": "Animal",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Crag Growler",
+				"EnemyType": "Animal",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Eyrie Outrider",
+				"EnemyType": "Monster",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Hatchling",
+				"EnemyType": "Animal",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Kobold",
+				"EnemyType": "Monster",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Manticore",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Mountain Dragon",
+				"EnemyType": "Dragon",
+				"strength": "8",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Before you engage roll 1 die. If the result is equal or higher than your craft, lose 1 life"
+			},
+			{
+				"Name": "Mountain Goat",
+				"EnemyType": "Animal",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Mountain Lion",
+				"EnemyType": "Animal",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Rock Mauler",
+				"EnemyType": "Monster",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Skyfall Sentry",
+				"EnemyType": "Monster",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Before you engage roll 1 die. If it is equal or higher than your craft you lose 1 life"
+			},
+			{
+				"Name": "Thundercrest",
+				"EnemyType": "Animal",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Tuskgore",
+				"EnemyType": "Animal",
+				"strength": "3",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated, roll 1 die and move that many spaces counter-clockwise in addition to losing 1 life"
+			},
+			{
+				"Name": "Wind Rider",
+				"EnemyType": "Monster",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Wyvern",
+				"EnemyType": "Dragon",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Falconer",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Harpy",
+				"EnemyType": "Monster",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": "If you are defeated you will be teleported to the Crags in addition to losing 1 life"
+			},
+			{
+				"Name": "Lightning Elemental",
+				"EnemyType": "Elemental",
+				"strength": "0",
+				"craft": "8",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Night Gaunt",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Phantasm",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Revenant",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Sky Seeker",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Stormcrow",
+				"EnemyType": "Elemental",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Stormwing",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Talon Mage",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Windlasher",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": ""
+			},
+			{
+				"Name": "Winged Stalker",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": ""
+			}
+		],
+		"TheSacredPool": [
+			{
+				"Name": "Ivory Sentinel",
+				"EnemyType": "Construct",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "1",
+				"Description": "The Sentinel cant be evaded. Any evil or neutral character who enters this space must end the movement and encounter this space"
+			},
+			{
+				"Name": "Ebony Sentinel",
+				"EnemyType": "Construct",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "1",
+				"Description": "The Sentinel cant be evaded. Any good or neutral character who enters this space must end the movement and encounter this space"
+			},
+			{
+				"Name": "Infernal Legion",
+				"EnemyType": "Monster",
+				"strength": "10",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Evil characters may evade the Legion. Good characters cant evade the Legion"
+			},
+			{
+				"Name": "Pit Fiend",
+				"EnemyType": "Monster",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Wretched",
+				"EnemyType": "Monster",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You cant use fate to reroll dice during battle with the Wretched"
+			},
+			{
+				"Name": "Wrathborn Warrior",
+				"EnemyType": "Cultist",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If the wrathborns attack roll is lower than its strength, roll 1 die and att the result to its attack score"
+			},
+			{
+				"Name": "Wrathborn Knight",
+				"EnemyType": "Cultist",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If the Wrathborns attack roll is lower than its strength, roll 1 die and add the result to its attack score"
+			},
+			{
+				"Name": "Vindicator",
+				"EnemyType": "Cultist",
+				"strength": "?",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "The vindicator has 3 strength if you are good, 6 if you are neutral or a 9 if you are evil. If you kill him you gain 1 strength"
+			},
+			{
+				"Name": "Firemane",
+				"EnemyType": "Animal",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you defeat Firemane you may take it as a Riding Horse instead of a trophy"
+			},
+			{
+				"Name": "Shadowsoul",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": "You cant use fate to reroll dice during combat"
+			},
+			{
+				"Name": "Fel Steed",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "7",
+				"initiative": "3",
+				"Description": "If you defeat the Fel Steed you may take it as a Warhorse instead of a trophy"
+			},
+			{
+				"Name": "Heavenly Host",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "10",
+				"initiative": "3",
+				"Description": "Good characters may evade Heavenly Host. Evil characters cant evade"
+			},
+			{
+				"Name": "Dark Fey",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "The Dark Fey rolls 2 dice for her attack and uses the highest result. If she rolls doubles you are turned into a Toad for 3 turns"
+			},
+			{
+				"Name": "Swamp Siren",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": "If you are defeated you must encounter this space again instead of moving your next turn."
+			},
+			{
+				"Name": "Wrathborn Witch",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": "If the Wrathborns roll is lower than its craft, roll 1 die and add the result to its attack score"
+			},
+			{
+				"Name": "Wrathborn Acolyte",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "2",
+				"initiative": "3",
+				"Description": "If the Wrathborns roll is lower than its craft, roll 1 die and add the result to its attack score"
+			}
+		],
+		"TheCity": [
+			{
+				"Name": "Giant Fly",
+				"EnemyType": "Animal",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "City Rat",
+				"EnemyType": "Animal",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "City Rat",
+				"EnemyType": "Animal",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": ""
+			},
+			{
+				"Name": "Bravo",
+				"EnemyType": "Monster",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you are defeated you lose 1 gold. If you win you gain 1 gold"
+			},
+			{
+				"Name": "Clockwork Cabinet",
+				"EnemyType": "Construct",
+				"strength": "4",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you defeat Clockwork Cabinet you may take it as a Follower. As a Follower you can carry 4 extra objects"
+			},
+			{
+				"Name": "Clockwork Dragon",
+				"EnemyType": "Construct",
+				"strength": "7",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you win you may take a Talisman instead of a trophy"
+			},
+			{
+				"Name": "City Watch",
+				"EnemyType": "Law",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You may evade City Watch instead of attacking them. If you are defeated you do not lose life but are thrown in Jail"
+			},
+			{
+				"Name": "Fire Elemental",
+				"EnemyType": "Elemental",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": "When revealed, discard all other cards in this place"
+			},
+			{
+				"Name": "Air Elemental",
+				"EnemyType": "Elemental",
+				"strength": "0",
+				"craft": "4",
+				"initiative": "3",
+				"Description": "If you are defeated you are blown 1 die clockwise and immediately end your turn"
+			},
+			{
+				"Name": "Water Elemental",
+				"EnemyType": "Elemental",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "3",
+				"Description": "If you are defeated 1 of your Followers chosen of random, is blown away 1 die clockwise"
+			},
+			{
+				"Name": "Heretic Priest",
+				"EnemyType": "Cultist",
+				"strength": "2",
+				"craft": "0",
+				"initiative": "3",
+				"Description": "If you are defeated you must roll 1 die to pray with the same result as the High Temple"
+			},
+			{
+				"Name": "Sneakthief",
+				"EnemyType": "Cultist",
+				"strength": "0",
+				"craft": "3",
+				"initiative": "3",
+				"Description": "If you kill the Sneakthief you may discard this card and steal 1 object from another character"
+			},
+			{
+				"Name": "Night Guard",
+				"EnemyType": "Law",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": "You may evade the Night Guard. If you are defeated you do not lose life but are thrown in Jail"
+			}
+		],
+		"TheNetherRealm": [
+			{
+				"Name": "Flesh Golem",
+				"EnemyType": "Construct",
+				"strength": "?",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Golems strength is equal to the number of trophy points you have, minimum 1. If you kill the Golem you gain 1 strength"
+			},
+			{
+				"Name": "Polymorph",
+				"EnemyType": "Monster",
+				"strength": "?",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Roll 1 die. 1-2: strength = 10, 2-3: strength = 8, 5-6: strength = 6. If you kill it you gain 1 strength"
+			},
+			{
+				"Name": "Dragon Toad",
+				"EnemyType": "Dragon",
+				"strength": "1",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If you roll lower than the Dragons attack roll, you are turned into a Toad for 3 turns."
+			},
+			{
+				"Name": "Blink",
+				"EnemyType": "Monster",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You may not roll a die for your attack roll"
+			},
+			{
+				"Name": "Wrathborn Wyvern",
+				"EnemyType": "Dragon",
+				"strength": "5",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If the Wrathborns attack roll is lower than its strength, roll another die and att it to the result"
+			},
+			{
+				"Name": "Nether Blight",
+				"EnemyType": "Monster",
+				"strength": "6",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "If your attack roll is lower than the Blights attack roll, you are killed"
+			},
+			{
+				"Name": "Crail",
+				"EnemyType": "Monster",
+				"strength": "7",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You may not use any objects when fighting the Crail"
+			},
+			{
+				"Name": "Mist Giant",
+				"EnemyType": "Monster",
+				"strength": "8",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Before you engage roll 2 die. You must use the lowest as your attack roll and the giant uses the highest"
+			},
+			{
+				"Name": "Storm Dragon",
+				"EnemyType": "Dragon",
+				"strength": "8",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Before you engage, if you have any Armor or Weapon you lose 1 life"
+			},
+			{
+				"Name": "Poldhu",
+				"EnemyType": "Construct",
+				"strength": "9",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You may not use any spells while fighting the Poldhu"
+			},
+			{
+				"Name": "Temple Drake",
+				"EnemyType": "Dragon",
+				"strength": "9",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "Before you engage, discard one of your followers at random. If you have none lose 1 life instead"
+			},
+			{
+				"Name": "Atlas Ogre",
+				"EnemyType": "Monster",
+				"strength": "12",
+				"craft": "0",
+				"initiative": "2",
+				"Description": "You add 1 attack to your roll for each fate you have"
+			},
+			{
+				"Name": "Changeling",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "?",
+				"initiative": "3",
+				"Description": "Roll 1 die. 1-2: craft = 11, 3-4: craft = 9, 5-6: craft = 7. If you kill it gain 1 craft"
+			},
+			{
+				"Name": "Nether Golem",
+				"EnemyType": "Construct",
+				"strength": "0",
+				"craft": "?",
+				"initiative": "3",
+				"Description": "The Golems craft is equal to the total number of fate of all characters, minimum 1. If you kill it gain 1 craft"
+			},
+			{
+				"Name": "Sepulchre Spectre",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "1",
+				"initiative": "3",
+				"Description": "Move all spirits from every region to this space"
+			},
+			{
+				"Name": "Nether Torment",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": "If your attack roll is lower than the Torments, you are killed"
+			},
+			{
+				"Name": "Nether Wyrm",
+				"EnemyType": "Dragon",
+				"strength": "0",
+				"craft": "5",
+				"initiative": "3",
+				"Description": "Before you engage, roll 1 die. If the result is equal or lower to your fate, lose 1 life"
+			},
+			{
+				"Name": "Glimmer",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "3",
+				"Description": "You may not roll a die for your attack roll"
+			},
+			{
+				"Name": "Nether Drake",
+				"EnemyType": "Dragon",
+				"strength": "0",
+				"craft": "6",
+				"initiative": "3",
+				"Description": "If you pay fate to reroll and roll a lower result, you are killed"
+			},
+			{
+				"Name": "Mist Dragon",
+				"EnemyType": "Dragon",
+				"strength": "0",
+				"craft": "7",
+				"initiative": "3",
+				"Description": "Before you engage, roll 2 dice. You use the lowest and the Dragon use the highest as attack roll"
+			},
+			{
+				"Name": "Arcane Dragon",
+				"EnemyType": "Dragon",
+				"strength": "0",
+				"craft": "8",
+				"initiative": "3",
+				"Description": "Before you engage, if you have any spells you lose 1 life"
+			},
+			{
+				"Name": "Boukha",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "8",
+				"initiative": "3",
+				"Description": "You may not use any followers when fighting Boukha"
+			},
+			{
+				"Name": "Titan Wraith",
+				"EnemyType": "Spirit",
+				"strength": "0",
+				"craft": "13",
+				"initiative": "3",
+				"Description": "You may add 1 attack to your roll for each fate you have."
+			}
+		]
+	}
+}

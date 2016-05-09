@@ -1,0 +1,8 @@
+e:\jedla\documents\Projects\Talisman\Talisman\bin\Debug\Talisman.exe.config
+e:\jedla\documents\Projects\Talisman\Talisman\bin\Debug\Talisman.exe
+e:\jedla\documents\Projects\Talisman\Talisman\bin\Debug\Talisman.pdb
+e:\jedla\documents\Projects\Talisman\Talisman\bin\Debug\Newtonsoft.Json.dll
+e:\jedla\documents\Projects\Talisman\Talisman\bin\Debug\Newtonsoft.Json.xml
+e:\jedla\documents\Projects\Talisman\Talisman\obj\Debug\Talisman.csprojResolveAssemblyReference.cache
+e:\jedla\documents\Projects\Talisman\Talisman\obj\Debug\Talisman.exe
+e:\jedla\documents\Projects\Talisman\Talisman\obj\Debug\Talisman.pdb
